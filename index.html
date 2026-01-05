@@ -1,61 +1,81 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <title>Деревянная плитка из торцевых спилов</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body { font-family: sans-serif; margin: 40px; background: #f9f5f0; color: #333; line-height: 1.6; }
-        header { text-align: center; margin-bottom: 50px; }
-        h1 { color: #5d4037; }
-        .hero-img { max-width: 100%; height: auto; border-radius: 10px; margin: 30px 0; }
-        .cta-button {
-            display: inline-block; background: #6d4c41; color: white; padding: 15px 30px;
-            text-decoration: none; border-radius: 5px; margin: 20px 0; font-weight: bold;
-        }
-        section { max-width: 800px; margin: 40px auto; padding: 20px; }
-        footer { text-align: center; margin-top: 60px; color: #777; font-size: 0.9em; }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Деревянная плитка EndCut | Студия дизайна интерьера</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Деревянная плитка из торцевых спилов</h1>
-        <p>Уникальная отделка для вашего интерьера. Натурально. Экологично. Вручную.</p>
+    <!-- Шапка сайта (Hero Section) -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Откройте для себя деревянную плитку EndCut</h1>
+                <p class="subtitle">Экологичная ручная работа для вашего интерьера.</p>
+                <!-- В будущем здесь может быть кнопка, например:
+                <a href="#prices" class="btn">Посмотреть цены</a>
+                -->
+            </div>
+        </div>
     </header>
 
-    <section>
-        <h2>Наша плитка в интерьере</h2>
-        <!-- ЗДЕСЬ БУДЕТ ПЕРВОЕ ФОТО -->
-        <p style="text-align: center; padding: 40px; background: #eee; border-radius: 10px;">
-            [ Здесь будет ваша первая фотография плитки в интерьере (ИИ или реальная) ]
-        </p>
-        <p>
-            Каждый элемент — это торец натурального дерева, собранный в уникальную композицию.
-        </p>
-        <center>
-            <a href="#contacts" class="cta-button">Узнать цену и сделать заказ</a>
-        </center>
-    </section>
+    <main class="container">
+        <!-- Раздел: Материалы -->
+        <section class="section materials">
+            <h2>Материалы для изготовления плитки</h2>
+            <p class="section-description">Используем экологически чистые материалы для создания уникальной плитки ручной работы.</p>
 
-    <section>
-        <h2>Почему именно наша плитка?</h2>
-        <ul>
-            <li><strong>Уникальная текстура:</strong> Торцевой срез показывает рисунок дерева, который невозможно увидеть на обычной доске.</li>
-            <li><strong>Разные породы:</strong> Работаем с дубом, ясенем, орехом и другими ценными породами.</li>
-            <li><strong>Ручная работа:</strong> Каждая плитка собирается и обрабатывается вручную.</li>
-        </ul>
-    </section>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <!-- ЗАМЕНИТЬ НА СВОЁ ИЗОБРАЖЕНИЕ -->
+                        <img src="assets/material-1.jpg" alt="Ручная работа">
+                    </div>
+                    <h3>Ручная работа</h3>
+                    <p>Каждый элемент плитки изготавливается вручную, что обеспечивает высокое качество и уникальность.</p>
+                </div>
 
-    <section id="contacts">
-        <h2>Свяжитесь с нами</h2>
-        <p>Обсудим ваш проект, подберем породу дерева и рассчитаем стоимость.</p>
-        <p>Email: <strong>ваш-email@example.com</strong></p>
-        <p>Телефон: <strong>+7 (XXX) XXX-XX-XX</strong></p>
-        <!-- Или форма: formspree.io -->
-    </section>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <!-- ЗАМЕНИТЬ НА СВОЁ ИЗОБРАЖЕНИЕ -->
+                        <img src="assets/material-2.jpg" alt="Экологичная древесина">
+                    </div>
+                    <h3>Экологически чистая древесина</h3>
+                    <p>Используем древесину из экологически чистых источников, чтобы минимизировать негативное воздействие на окружающую среду.</p>
+                </div>
 
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <!-- ЗАМЕНИТЬ НА СВОЁ ИЗОБРАЖЕНИЕ -->
+                        <img src="assets/material-3.jpg" alt="Разнообразие древесины">
+                    </div>
+                    <h3>Разнообразие древесины</h3>
+                    <p>Плитка изготавливается из различных видов древесины, что позволяет создавать уникальные дизайны.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел: О проекте -->
+        <section class="section about">
+            <h2>О проекте</h2>
+            <div class="about-content">
+                <p>Мы занимаемся созданием уникальной деревянной плитки EndCut. Наши изделия изготавливаются вручную из экологически чистых материалов и отличаются разнообразием размеров и видов древесины. Плитка EndCut может использоваться для отделки пола, стен, перегородок и других поверхностей, включая кухонный фартук.</p>
+            </div>
+        </section>
+
+        <!-- Сюда будут добавлены следующие разделы: Галерея, Цены, Как заказать, Контакты -->
+
+    </main>
+
+    <!-- Подвал сайта будет добавлен в конце -->
     <footer>
-        <p>© 2024 Деревянная плитка ручной работы. Все права защищены.</p>
+        <!-- Код футера будет позже -->
     </footer>
+
 </body>
 </html>
