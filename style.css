@@ -323,3 +323,17 @@ body {
     margin-top: 30px;
     color: #7f8c8d;
 }
+/* ===== БОЛЬШАЯ КАРТИНКА-РАЗДЕЛИТЕЛЬ ПОСЛЕ "О ПРОЕКТЕ" ===== */
+.about-divider-image {
+    margin-top: 70px; /* Отступ сверху от текста */
+    text-align: center;
+}
+
+.about-divider-image img {
+    max-width: 100%; /* Картинка не будет шире экрана */
+    width: 100%; /* Растягивается на всю ширину контейнера */
+    height: auto; /* Сохраняет пропорции */
+    border-radius: 12px; /* Скругленные углы, как в оригинале */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* Легкая тень */
+    display: block; /* Убирает лишние отступы */
+}
