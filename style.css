@@ -325,7 +325,7 @@ body {
 }
 /* ===== БОЛЬШАЯ КАРТИНКА-РАЗДЕЛИТЕЛЬ ПОСЛЕ "О ПРОЕКТЕ" ===== */
 .about-divider-image {
-    margin-top: 70px; /* Отступ сверху от текста */
+    margin: 30px auto 50px; /* Сверху 30px, по бокам auto, снизу 50px */
     text-align: center;
 }
 
