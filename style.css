@@ -402,3 +402,10 @@ body {
 #contacts .google-form-container {
     margin-bottom: 60px;
 }
+/* Адаптивность для мобильных */
+@media (max-width: 768px) {
+    .custom-form-wrapper iframe {
+        height: 1000px !important; /* Высокая фиксированная высота для мобильных */
+        min-height: 1000px;
+    }
+}
