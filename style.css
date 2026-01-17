@@ -354,15 +354,11 @@ body {
 }
 /* ===== СТИЛИ ДЛЯ GOOGLE ФОРМЫ ===== */
 .google-form-container {
-    max-width: 700px; /* Ограничиваем ширину как у старой формы */
-    margin: 40px auto 0; /* Центрируем и добавляем отступ сверху */
-    border-radius: 15px; /* Скругляем углы */
-    overflow: hidden; /* Обрезаем содержимое по скруглённым углам */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* Лёгкая тень */
-}
-
-/* Стили для самого iframe */
-.google-form-container iframe {
-    display: block; /* Убирает лишние отступы снизу */
-    border: none; /* Убирает рамку у iframe */
+    max-width: 700px;
+    margin: 40px auto 0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    height: auto; /* Важно: высота автоматическая */
+    min-height: 800px; /* Совпадает с min-height в iframe */
 }
